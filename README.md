@@ -13,3 +13,6 @@ Absolutely! I will never give up on it!
 
 # Are partnerships or sponsorships open?
 Yep! We already partnered with Natsuki! (https://github.com/jdh8/natsuki)
+
+# Why is the bot offline?
+Thank heroku for that one! 
