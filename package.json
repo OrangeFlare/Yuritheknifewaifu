@@ -5,6 +5,7 @@
   "version": "1.2.9",
   "dependencies": {
     "cleverbot.io": "^1.0.4",
+    "dblapi.js": "^1.2.1",
     "discord.js": "^11.3.0",
     "extend": "^3.0.1",
     "ffmpeg-binaries": "^3.2.2-3",
@@ -14,6 +15,7 @@
     "libsodium-wrappers": "^0.5.4",
     "opusscript": "0.0.3",
     "request": "^2.83.0",
+    "tar.gz": "^1.0.7",
     "valid-url": "^1.0.9",
     "ytdl-core": "^0.20.1"
   },
