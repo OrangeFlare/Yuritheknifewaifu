@@ -1,1 +1,525 @@
-[null,{"name":"LeaveMessage","temp":"member","event-type":"7","actions":[{"channel":"4","varName":"","message":"${tempVars(\"member\")} Couldn't take it anymore and had left. ","storage":"0","varName2":"","name":"Send Message"}],"_id":"XDFdI"},{"name":"WelcomeMessage","temp":"member","event-type":"6","actions":[{"server":"0","varName":"","info":"2","storage":"1","varName2":"name","name":"Store Server Info"},{"channel":"4","varName":"","message":"Welcome to the ${tempVars(\"name\")} server ${tempVars(\"member\")}!","storage":"0","varName2":"","name":"Send Message"}],"_id":"dfNAX"},{"name":"BotJoin","temp":"","event-type":"4","actions":[{"channel":"4","varName":"","message":"Please message my dev SayoriTheThirdEye#2631 that you've invited me to your server. She would love to meet you.","storage":"0","varName2":"","name":"Send Message"},{"username":"YuriTheKnifeWaifu","name":"Set Bot Username"},{"server":"0","varName":"","dataName":"Server","defaultVal":"0","storage":"3","varName2":"Servers","name":"Store Server Data"},{"server":"0","varName":"","info":"15","storage":"1","varName2":"Members","name":"Store Server Info"},{"server":"0","varName":"","info":"1","storage":"1","varName2":"Server ID","name":"Store Server Info"},{"server":"0","varName":"","info":"11","storage":"1","varName2":"Owner","name":"Store Server Info"},{"server":"0","varName":"","info":"0","storage":"1","varName2":"Server","name":"Store Server Info"},{"server":"0","varName":"","dataName":"Servers","defaultVal":"0","storage":"1","varName2":"Servers","name":"Store Server Data"}],"_id":"OYUwE"},{"name":"serveridevent","temp":"","event-type":"0","actions":[{"server":"1","varName":"serverloop","info":"1","storage":"1","varName2":"serverid","name":"Store Server Info"},{"server":"1","varName":"serverloop","info":"2","storage":"1","varName2":"servername","name":"Store Server Info"},{"storage":"1","varName":"serveridlist","addType":"0","position":"","value":"tempVars(\"serverid\")","name":"Add Item to List"},{"storage":"1","varName":"serveridlist","addType":"0","position":"","value":"tempVars(\"servername\")","name":"Add Item to List"}],"_id":"qapPg"},{"name":"Banned","temp":"","event-type":"12","actions":[{"channel":"4","varName":"","message":"Bye bye ¤̴̨͚͖̜̺͓͍̠̠̝͈͠¥̴̻̞͇͈͛̐̌̓̆͒͘͝¦̷͕̝̝̮̖̣̠̦̤̮̪̪͚͊̾̈́͜͜§̴̞͔͙̬̟͇͙͔͕͓͙̆͒͛̃̂̔͆͜¨̷͈̦͎̹͙̝͖̲̦͚͈̟̥̆̄̾̒͒͋̍̒̄̅͝©̶̺͚̙̭̼̹͎͙̣̃̔͗̽̄̑͗͂̉̔̂ª̸̥̤̭̾̀̍͂̿̏̊̈́͗̚«̵̥̿̌̅́͐̃̓͘¬̸̺̘̭̤̖̒̐̄̀͌̆̋®̸̢̳͙̝̝̮̥͚̣̣͕̾̉͜¯̸͙̣̲̯̮̰͔́͐͊°̷̬̐̋̀̈́́̋̇̈́̕±̵̢̯̼̱̞͈̫̏͋̀͑͗͛̿̈́̀̿͘̕̕͝²̷̨̢͈̲̰̗̮̜̳͖̝̯͆͜͜͝ͅ³̴͇͍͇͔͔̠̼̦̮̿̾̄͑̑͋̄̓̉̊̆͘͠ͅ´̸̨̧̪̹͕͍̬͇̘̙͈̩̥͖̄̎̾̍͗̾͠µ̸͈͎̝̘̍̊͆́̉̉¶̸̛̥̘̲͕̳̜͎͙̈́̊́̇·̵̠͍̞͔͕̣̗͙͚͚̭̟̫̉̈́̈́̔́̓͘¸̴̧̧̢͇̮͚̭̟̘̗̝̤̐͆̓̈́̾͌͘͜ͅͅ¹̷̪̩̻̬̝̙̹̤̟͔̒͋º̸̨̣͖̥͉̯͐̋̆̆»̵̡̧̲̥͕̣̮̦̭̭͙̳̽̇́́̕͘¼̸̡̛͙̪̀͋́̂̔̆̅̉́̽͗̀͝½̷͙̝̰͇̽̂͗̋̈́̉̐͆͋̓̋͛̔͂̏¾̷̼̗̤̱̒¿̶̧̤̮̘̪̳̦̝͘À̴̢̡̮̩̣͎͇͓́͗̆̇̊̾̿̌̏̌̇̀̊Á̴̢̡̠̫̺͕̠͙͍̰̪͚̥͎̘̎̋̎̈́́̿̋̀̃͆͑̀\ň̵̨̨̨̘̣̖̹̩͉̱͚̘̦͋́͋̔͊͊̔͊͋͘͘Â̸͎̳̟̪̭̮̮̫̥̺̇̌̒́̐̈͆̎Ã̵̛̛̖͚͉͖͇̥͔͚̹͛͛͌͌͂̌͒̊͑̽̚͠͝Ä̸̧͙̘̭̲͔̙̭̣̻͈̟̰̀̚͝Å̸͚̖̩͙̦̤̟̇̈́͗̃́̀̀̆̈̕͝ͅÆ̵̨̛̲̰̘̙͉̺͙̭̳͌͗̇͊͐̆͋̅̚ͅÇ̸̧͉͇͉̱̯̤̾̀̉͑̈́̽́̂͐̕Ę̶̻̫̫͉̪̪̝̘̠͔̀̆̅̀̿̊͊͘͝É̵̡̘̥̫͓̘͎̰͛̎͂̂̇̄͛͋̕̕ͅȨ̸͍͚͍̪͈̟͔̫̂͂̔̏́̕͜Ë̵̘̓̆̈͠Ì̷̡̀͋̒́̿̌̒͌̿͘̕͘̕Í̸̢̼̲̜̓Î̵̥͌͝Ï̸̡̺͇̤̠̯͙̿͐́͑̕͜Ð̵̢̳̼̗̫͇̞̪̾͆̾Ñ̴̨̜̱̻̳̳͉̖̣̭̞̺̌̑̔́͐̆̅͜ͅÒ̸͖̝͋̉̐͝Ớ̷̧̧̳̖̱̲̰̳̜̳͈̩̣̰̊̀͂͂͛̃͐̄̽̚ͅÔ̴͚̰̌̃̋̓̃͗͆͐͐͛̅̅̊͐Õ̴̩̱̬̜̝͖̌̏͑̐́̉̃͂̀̉͝͝ͅÖ̵͙̆͑̄̈͛͘×̴̢̛͕̹̗̮͙̦̓̓̀̈́̀͑̕Ø̶̖͉̘͚̣̪̼͜͝Ù̸̗͖̟̺̲͋͗̆̐̚͜ͅ  ${member}","storage":"0","varName2":"","name":"Send Message"}],"_id":"ssfEw"},{"name":"CheckMute","temp":"msg","event-type":"2","actions":[{"server":"0","varName":"","info":"1","storage":"1","varName2":"serverid","name":"Store Server Info"},{"message":"1","varName":"msg","info":"3","storage":"1","varName2":"member","name":"Store Message Info"},{"member":"2","varName":"member","dataName":"${tempVars(\"serverid\")}.istextmuted","comparison":"1","value":"1","iftrue":"0","iftrueVal":"","iffalse":"1","iffalseVal":"","name":"Check Member Data"},{"storage":"1","varName":"msg","name":"Delete Message"}],"_id":"duWVR"},{"name":"Active","temp":"","event-type":"1","_id":"HhSIM","actions":[]},{"name":"Bot console error","temp":"error1","event-type":"37","_id":"tHYzG","actions":[{"info":"1","find":"log-channel-owner","storage":"1","varName":"log-channel","name":"Find Channel"},{"info":"1","find":"Cipher The Universe","storage":"1","varName":"Cipher","name":"Find Member"},{"title":"Bot (re)started","author":"","color":"0083b7","timestamp":"true","url":"","authorIcon":"","imageUrl":"","thumbUrl":"","storage":"1","varName":"embed","name":"Create Embed Message"},{"storage":"1","varName":"embed","message":"${tempVars(\"Cipher\")}\n\n```${tempVars(\"error1\")}```\n\n```js\n${tempVars(\"error2\")}```","name":"Set Embed Description"},{"storage":"1","varName":"embed","channel":"5","varName2":"log-channel","name":"Send Embed Message"}],"temp2":"error2"},{"name":"spy","temp":"msg","event-type":"2","_id":"yYNTo","actions":[{"member":"","varName":"","info":"2","storage":"1","varName2":"ma","name":"Store Member Info"},{"storage":"1","varName":"ma","comparison":"1","value":"332357411979657217","iftrue":"0","iftrueVal":"","iffalse":"1","iffalseVal":"","name":"Check Variable"},{"message":"0","varName":"","info":"2","storage":"1","varName2":"th","name":"Store Message Info"},{"tosend":"[/SPY MODULE/] ${tempVars(\"th\")}","name":"Send Message to Console"}],"comType":"3","restriction":"0"},{"name":"Filter","temp":"message","event-type":"2","_id":"sfctg","actions":[{"message":"1","varName":"message","info":"4","storage":"1","varName2":"Channel2","name":"Store Message Info"},{"message":"1","varName":"message","info":"3","storage":"1","varName2":"user","name":"Store Message Info"},{"storage":"1","varName":"message","comparison":"1","value":"nigger","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"1","value":"nigtard","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"1","value":"keemnigger","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"1","value":"Hitler did nothing wrong","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"1","value":"burntheniggers","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"1","value":"asstard","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"1","value":"gaynigga","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"5","value":"faggot","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"storage":"1","varName":"message","comparison":"1","value":"gayfag","iftrue":"2","iftrueVal":"11","iffalse":"0","iffalseVal":"","name":"Check Variable"},{"name":"End Action Sequence"},{"storage":"1","varName":"message","name":"Delete Message"},{"title":"","author":"","color":"","timestamp":"false","url":"","authorIcon":"","imageUrl":"","thumbUrl":"","storage":"1","varName":"embed-1","name":"Create Embed Message"},{"storage":"1","varName":"embed","fieldName":"User","message":"${tempVars(\"user\")}","inline":"0","name":"Add Embed Field"},{"storage":"1","varName":"embed","fieldName":"Message","message":"${tempVars(\"message\")}","inline":"0","name":"Add Embed Field"},{"storage":"1","varName":"embed-1","channel":"5","varName2":"Channel","name":"Send Embed Message"},{"title":"","author":"","color":"CHANGECOLOR","timestamp":"false","url":"","authorIcon":"","imageUrl":"","thumbUrl":"","storage":"1","varName":"embed-1","name":"Create Embed Message"},{"storage":"1","varName":"embed-1","message":"${tempVars(\"user\")} Well that was just uncalled for.","name":"Set Embed Description"},{"storage":"1","varName":"embed-1","channel":"5","varName2":"Channel2","name":"Send Embed Message"}],"restriction":"0"},{"name":"NewEvent","temp":"","event-type":"0","_id":"HJpyg","actions":[{"list":"2","varName":"","transform":"item","null":"0","storage":"3","varName2":"emojis","name":"Transform List"}]},{"name":"NewEvent","temp":"","event-type":"0","_id":"tyLfY","actions":[]}]
+[
+  null,
+  {
+    "name": "LeaveMessage",
+    "temp": "member",
+    "event-type": "7",
+    "actions": [
+      {
+        "channel": "4",
+        "varName": "",
+        "message": "${tempVars(\"member\")} Couldn't take it anymore and had left. ",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ],
+    "_id": "XDFdI"
+  },
+  {
+    "name": "WelcomeMessage",
+    "temp": "member",
+    "event-type": "6",
+    "actions": [
+      {
+        "server": "0",
+        "varName": "",
+        "info": "2",
+        "storage": "1",
+        "varName2": "name",
+        "name": "Store Server Info"
+      },
+      {
+        "channel": "4",
+        "varName": "",
+        "message": "Welcome to the ${tempVars(\"name\")} server ${tempVars(\"member\")}!",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ],
+    "_id": "dfNAX"
+  },
+  {
+    "name": "BotJoin",
+    "temp": "",
+    "event-type": "4",
+    "actions": [
+      {
+        "channel": "4",
+        "varName": "",
+        "message": "Please message my dev SayoriTheThirdEye#2631 that you've invited me to your server. She would love to meet you.",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      },
+      {
+        "username": "YuriTheKnifeWaifu",
+        "name": "Set Bot Username"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "dataName": "Server",
+        "defaultVal": "0",
+        "storage": "3",
+        "varName2": "Servers",
+        "name": "Store Server Data"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "15",
+        "storage": "1",
+        "varName2": "Members",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "1",
+        "storage": "1",
+        "varName2": "Server ID",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "11",
+        "storage": "1",
+        "varName2": "Owner",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "0",
+        "storage": "1",
+        "varName2": "Server",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "dataName": "Servers",
+        "defaultVal": "0",
+        "storage": "1",
+        "varName2": "Servers",
+        "name": "Store Server Data"
+      }
+    ],
+    "_id": "OYUwE"
+  },
+  {
+    "name": "serveridevent",
+    "temp": "",
+    "event-type": "0",
+    "actions": [
+      {
+        "server": "1",
+        "varName": "serverloop",
+        "info": "1",
+        "storage": "1",
+        "varName2": "serverid",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "1",
+        "varName": "serverloop",
+        "info": "2",
+        "storage": "1",
+        "varName2": "servername",
+        "name": "Store Server Info"
+      },
+      {
+        "storage": "1",
+        "varName": "serveridlist",
+        "addType": "0",
+        "position": "",
+        "value": "tempVars(\"serverid\")",
+        "name": "Add Item to List"
+      },
+      {
+        "storage": "1",
+        "varName": "serveridlist",
+        "addType": "0",
+        "position": "",
+        "value": "tempVars(\"servername\")",
+        "name": "Add Item to List"
+      }
+    ],
+    "_id": "qapPg"
+  },
+  {
+    "name": "Banned",
+    "temp": "",
+    "event-type": "12",
+    "actions": [
+      {
+        "channel": "4",
+        "varName": "",
+        "message": "Bye bye ¤̴̨͚͖̜̺͓͍̠̠̝͈͠¥̴̻̞͇͈͛̐̌̓̆͒͘͝¦̷͕̝̝̮̖̣̠̦̤̮̪̪͚͊̾̈́͜͜§̴̞͔͙̬̟͇͙͔͕͓͙̆͒͛̃̂̔͆͜¨̷͈̦͎̹͙̝͖̲̦͚͈̟̥̆̄̾̒͒͋̍̒̄̅͝©̶̺͚̙̭̼̹͎͙̣̃̔͗̽̄̑͗͂̉̔̂ª̸̥̤̭̾̀̍͂̿̏̊̈́͗̚«̵̥̿̌̅́͐̃̓͘¬̸̺̘̭̤̖̒̐̄̀͌̆̋®̸̢̳͙̝̝̮̥͚̣̣͕̾̉͜¯̸͙̣̲̯̮̰͔́͐͊°̷̬̐̋̀̈́́̋̇̈́̕±̵̢̯̼̱̞͈̫̏͋̀͑͗͛̿̈́̀̿͘̕̕͝²̷̨̢͈̲̰̗̮̜̳͖̝̯͆͜͜͝ͅ³̴͇͍͇͔͔̠̼̦̮̿̾̄͑̑͋̄̓̉̊̆͘͠ͅ´̸̨̧̪̹͕͍̬͇̘̙͈̩̥͖̄̎̾̍͗̾͠µ̸͈͎̝̘̍̊͆́̉̉¶̸̛̥̘̲͕̳̜͎͙̈́̊́̇·̵̠͍̞͔͕̣̗͙͚͚̭̟̫̉̈́̈́̔́̓͘¸̴̧̧̢͇̮͚̭̟̘̗̝̤̐͆̓̈́̾͌͘͜ͅͅ¹̷̪̩̻̬̝̙̹̤̟͔̒͋º̸̨̣͖̥͉̯͐̋̆̆»̵̡̧̲̥͕̣̮̦̭̭͙̳̽̇́́̕͘¼̸̡̛͙̪̀͋́̂̔̆̅̉́̽͗̀͝½̷͙̝̰͇̽̂͗̋̈́̉̐͆͋̓̋͛̔͂̏¾̷̼̗̤̱̒¿̶̧̤̮̘̪̳̦̝͘À̴̢̡̮̩̣͎͇͓́͗̆̇̊̾̿̌̏̌̇̀̊Á̴̢̡̠̫̺͕̠͙͍̰̪͚̥͎̘̎̋̎̈́́̿̋̀̃͆͑̀\ň̵̨̨̨̘̣̖̹̩͉̱͚̘̦͋́͋̔͊͊̔͊͋͘͘Â̸͎̳̟̪̭̮̮̫̥̺̇̌̒́̐̈͆̎Ã̵̛̛̖͚͉͖͇̥͔͚̹͛͛͌͌͂̌͒̊͑̽̚͠͝Ä̸̧͙̘̭̲͔̙̭̣̻͈̟̰̀̚͝Å̸͚̖̩͙̦̤̟̇̈́͗̃́̀̀̆̈̕͝ͅÆ̵̨̛̲̰̘̙͉̺͙̭̳͌͗̇͊͐̆͋̅̚ͅÇ̸̧͉͇͉̱̯̤̾̀̉͑̈́̽́̂͐̕Ę̶̻̫̫͉̪̪̝̘̠͔̀̆̅̀̿̊͊͘͝É̵̡̘̥̫͓̘͎̰͛̎͂̂̇̄͛͋̕̕ͅȨ̸͍͚͍̪͈̟͔̫̂͂̔̏́̕͜Ë̵̘̓̆̈͠Ì̷̡̀͋̒́̿̌̒͌̿͘̕͘̕Í̸̢̼̲̜̓Î̵̥͌͝Ï̸̡̺͇̤̠̯͙̿͐́͑̕͜Ð̵̢̳̼̗̫͇̞̪̾͆̾Ñ̴̨̜̱̻̳̳͉̖̣̭̞̺̌̑̔́͐̆̅͜ͅÒ̸͖̝͋̉̐͝Ớ̷̧̧̳̖̱̲̰̳̜̳͈̩̣̰̊̀͂͂͛̃͐̄̽̚ͅÔ̴͚̰̌̃̋̓̃͗͆͐͐͛̅̅̊͐Õ̴̩̱̬̜̝͖̌̏͑̐́̉̃͂̀̉͝͝ͅÖ̵͙̆͑̄̈͛͘×̴̢̛͕̹̗̮͙̦̓̓̀̈́̀͑̕Ø̶̖͉̘͚̣̪̼͜͝Ù̸̗͖̟̺̲͋͗̆̐̚͜ͅ  ${member}",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ],
+    "_id": "ssfEw"
+  },
+  {
+    "name": "CheckMute",
+    "temp": "msg",
+    "event-type": "2",
+    "actions": [
+      {
+        "server": "0",
+        "varName": "",
+        "info": "1",
+        "storage": "1",
+        "varName2": "serverid",
+        "name": "Store Server Info"
+      },
+      {
+        "message": "1",
+        "varName": "msg",
+        "info": "3",
+        "storage": "1",
+        "varName2": "member",
+        "name": "Store Message Info"
+      },
+      {
+        "member": "2",
+        "varName": "member",
+        "dataName": "${tempVars(\"serverid\")}.istextmuted",
+        "comparison": "1",
+        "value": "1",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "1",
+        "iffalseVal": "",
+        "name": "Check Member Data"
+      },
+      {
+        "storage": "1",
+        "varName": "msg",
+        "name": "Delete Message"
+      }
+    ],
+    "_id": "duWVR"
+  },
+  {
+    "name": "Active",
+    "temp": "",
+    "event-type": "1",
+    "_id": "HhSIM",
+    "actions": []
+  },
+  {
+    "name": "Bot console error",
+    "temp": "error1",
+    "event-type": "37",
+    "_id": "tHYzG",
+    "actions": [
+      {
+        "info": "1",
+        "find": "log-channel-owner",
+        "storage": "1",
+        "varName": "log-channel",
+        "name": "Find Channel"
+      },
+      {
+        "info": "1",
+        "find": "Cipher The Universe",
+        "storage": "1",
+        "varName": "Cipher",
+        "name": "Find Member"
+      },
+      {
+        "title": "Bot (re)started",
+        "author": "",
+        "color": "0083b7",
+        "timestamp": "true",
+        "url": "",
+        "authorIcon": "",
+        "imageUrl": "",
+        "thumbUrl": "",
+        "storage": "1",
+        "varName": "embed",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "embed",
+        "message": "${tempVars(\"Cipher\")}\n\n```${tempVars(\"error1\")}```\n\n```js\n${tempVars(\"error2\")}```",
+        "name": "Set Embed Description"
+      },
+      {
+        "storage": "1",
+        "varName": "embed",
+        "channel": "5",
+        "varName2": "log-channel",
+        "name": "Send Embed Message"
+      }
+    ],
+    "temp2": "error2"
+  },
+  {
+    "name": "spy",
+    "temp": "msg",
+    "event-type": "2",
+    "_id": "yYNTo",
+    "actions": [
+      {
+        "member": "",
+        "varName": "",
+        "info": "2",
+        "storage": "1",
+        "varName2": "ma",
+        "name": "Store Member Info"
+      },
+      {
+        "storage": "1",
+        "varName": "ma",
+        "comparison": "1",
+        "value": "332357411979657217",
+        "iftrue": "0",
+        "iftrueVal": "",
+        "iffalse": "1",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "message": "0",
+        "varName": "",
+        "info": "2",
+        "storage": "1",
+        "varName2": "th",
+        "name": "Store Message Info"
+      },
+      {
+        "tosend": "[/SPY MODULE/] ${tempVars(\"th\")}",
+        "name": "Send Message to Console"
+      }
+    ],
+    "comType": "3",
+    "restriction": "0"
+  },
+  {
+    "name": "Filter",
+    "temp": "message",
+    "event-type": "2",
+    "_id": "sfctg",
+    "actions": [
+      {
+        "message": "1",
+        "varName": "message",
+        "info": "4",
+        "storage": "1",
+        "varName2": "Channel2",
+        "name": "Store Message Info"
+      },
+      {
+        "message": "1",
+        "varName": "message",
+        "info": "3",
+        "storage": "1",
+        "varName2": "user",
+        "name": "Store Message Info"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "nigger",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "nigtard",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "keemnigger",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "Hitler did nothing wrong",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "burntheniggers",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "asstard",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "gaynigga",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "5",
+        "value": "faggot",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "comparison": "1",
+        "value": "gayfag",
+        "iftrue": "2",
+        "iftrueVal": "11",
+        "iffalse": "0",
+        "iffalseVal": "",
+        "name": "Check Variable"
+      },
+      {
+        "name": "End Action Sequence"
+      },
+      {
+        "storage": "1",
+        "varName": "message",
+        "name": "Delete Message"
+      },
+      {
+        "title": "",
+        "author": "",
+        "color": "",
+        "timestamp": "false",
+        "url": "",
+        "authorIcon": "",
+        "imageUrl": "",
+        "thumbUrl": "",
+        "storage": "1",
+        "varName": "embed-1",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "embed",
+        "fieldName": "User",
+        "message": "${tempVars(\"user\")}",
+        "inline": "0",
+        "name": "Add Embed Field"
+      },
+      {
+        "storage": "1",
+        "varName": "embed",
+        "fieldName": "Message",
+        "message": "${tempVars(\"message\")}",
+        "inline": "0",
+        "name": "Add Embed Field"
+      },
+      {
+        "storage": "1",
+        "varName": "embed-1",
+        "channel": "5",
+        "varName2": "Channel",
+        "name": "Send Embed Message"
+      },
+      {
+        "title": "",
+        "author": "",
+        "color": "CHANGECOLOR",
+        "timestamp": "false",
+        "url": "",
+        "authorIcon": "",
+        "imageUrl": "",
+        "thumbUrl": "",
+        "storage": "1",
+        "varName": "embed-1",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "embed-1",
+        "message": "${tempVars(\"user\")} Well that was just uncalled for.",
+        "name": "Set Embed Description"
+      },
+      {
+        "storage": "1",
+        "varName": "embed-1",
+        "channel": "5",
+        "varName2": "Channel2",
+        "name": "Send Embed Message"
+      }
+    ],
+    "restriction": "0"
+  },
+  {
+    "name": "NewEvent",
+    "temp": "",
+    "event-type": "0",
+    "_id": "HJpyg",
+    "actions": [
+      {
+        "list": "2",
+        "varName": "",
+        "transform": "item",
+        "null": "0",
+        "storage": "3",
+        "varName2": "emojis",
+        "name": "Transform List"
+      }
+    ]
+  },
+  {
+    "name": "NewEvent",
+    "temp": "",
+    "event-type": "0",
+    "_id": "tyLfY",
+    "actions": []
+  }
+]

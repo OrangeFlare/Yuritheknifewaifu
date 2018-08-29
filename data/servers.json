@@ -1,1 +1,23 @@
-{"403703858745966602":{"spam":4},"406926014200020993":{"governmentbank":0,"mayortax":0,"mayor":1,"mayorlockdown":0},"407977424299622402":{"Server":0,"Servers":0},"409360772242735124":{"Server":0,"Servers":0,"stockprice":0,"GLOBALstockprice":495,"mayortax":0,"governmentbank":0}}
+{
+  "403703858745966602": {
+    "spam": 4
+  },
+  "406926014200020993": {
+    "governmentbank": 0,
+    "mayortax": 0,
+    "mayor": 1,
+    "mayorlockdown": 0
+  },
+  "407977424299622402": {
+    "Server": 0,
+    "Servers": 0
+  },
+  "409360772242735124": {
+    "Server": 0,
+    "Servers": 0,
+    "stockprice": 0,
+    "GLOBALstockprice": 495,
+    "mayortax": 0,
+    "governmentbank": 0
+  }
+}
